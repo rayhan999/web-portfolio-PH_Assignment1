@@ -6,6 +6,11 @@ body{
 
 
 /* -------------------1st part---------------- */
+.second-part{
+    height: 1200px;
+    width: 100%;
+}
+
 .half-width{
     width: 30%;
     float: left;
@@ -34,7 +39,7 @@ body{
 
 p{
     color: dimgray;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .button{
@@ -42,12 +47,16 @@ p{
     color: white;
     text-decoration: none;
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 10px;
     
 }
 
 /* -------------------2nd part---------------- */
+.second-part{
+    height: 1200px;
+    width: 100%;
+}
 
 #image2{
     padding-left:0px;
@@ -56,4 +65,46 @@ p{
     color: rgb(47, 20, 199);;
     font-weight: 700;
     font-size: 40px;
+}
+
+/* ----------------3rd part-------------------*/
+.third-div{
+    
+    height: 600px;
+    background-color: rgb(247, 248, 248);
+    padding: 3%;
+}
+
+.third-title-span{
+    color:tomato;
+    
+}
+.third-title{
+    padding: 10px;
+    color:  rgb(47, 20, 199);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;   
+}
+
+.box-model{
+    margin:25px ;
+    padding: 10px;
+    height: 350px;
+    width: 27%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px grey;
+    float: left;
+}
+
+.box-model img{
+    
+    height: 200px;
+    width: 100%;
+}
+
+.box-title{
+    font-size: 20px;
+    font-weight:700 ;
 }
