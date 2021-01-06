@@ -11,13 +11,13 @@ body{
     float: left;
     margin-left: 5%;
     padding: 5%;
-    /* padding-left: 0%; */
-    /* border: 1px solid black; */
+   
 }
 
 .half-width img{
     width: 100%;
     padding-left: 20%;
+    
 }
 
 .bold-text {
@@ -34,13 +34,26 @@ body{
 
 p{
     color: dimgray;
+    padding-bottom: 10px;
 }
 
-.top-button{
+.button{
     background-image: linear-gradient(90deg,rgb(104, 83, 223),rgb(47, 20, 199));
     color: white;
     text-decoration: none;
+    margin-top: 10px;
     padding: 10px 20px;
     border-radius: 10px;
+    
 }
 
+/* -------------------2nd part---------------- */
+
+#image2{
+    padding-left:0px;
+}
+.h2-text{
+    color: rgb(47, 20, 199);;
+    font-weight: 700;
+    font-size: 40px;
+}
