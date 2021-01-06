@@ -129,6 +129,28 @@ p{
     font-weight:700 ;
 }
 
+/* -----------------------------------extra part----------------------------------- */
+
+.quote{
+    height: 350px;
+    font-size: 30px;
+    text-align: center;
+    margin:5%;
+    background-color: #2675c4;
+    border-radius:20px;
+    margin-top: 10%;
+    padding-top:5%;
+    color: whitesmoke;
+    font-weight: 500;
+
+}
+.quote-owner{
+    color:whitesmoke;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
 /* -------------------------------4th part------------------------------- */
 
 .inquiry-box {
