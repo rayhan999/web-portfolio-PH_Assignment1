@@ -142,7 +142,7 @@ p{
     padding-top:5%;
     color: whitesmoke;
     font-weight: 500;
-
+    box-shadow: 10px 10px 20px grey;
 }
 .quote-owner{
     color:whitesmoke;
