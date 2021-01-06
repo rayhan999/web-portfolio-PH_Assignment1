@@ -71,8 +71,8 @@ p{
 .third-div{
     
     height: 600px;
-    background-color: rgb(247, 248, 248);
-    padding: 3%;
+    background-color: rgb(213, 213, 213);
+    padding: 7%;
 }
 
 .third-title-span{
@@ -80,18 +80,18 @@ p{
     
 }
 .third-title{
-    padding: 10px;
+    /* padding: 10px; */
     color:  rgb(47, 20, 199);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;   
 }
 
 .box-model{
-    margin:25px ;
-    padding: 10px;
-    height: 350px;
-    width: 27%;
+    margin: 15px;
+    padding: 15px;
+    height: 400px;
+    width: 28%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 5px 5px 20px grey;
@@ -107,4 +107,30 @@ p{
 .box-title{
     font-size: 20px;
     font-weight:700 ;
+}
+
+/* -------------------------------4th part------------------------------- */
+
+.inquiry-box {
+    margin: 15% 15%;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url("images/work.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.inquiry-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    padding:5%;
+    display: inline-block;
+}
+
+#inquiry-button{
+    margin-left: 35%;
+    background-image: linear-gradient(90deg,rgb(223, 144, 83),rgb(243, 122, 8));
 }
